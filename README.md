@@ -19,12 +19,13 @@ Esta classe herda de `tk.Entry` e é responsável pela área de exibição da ca
 
 **Construtor:**
 
-```python
+python
 def __init__(self, master):
     super().__init__(master, font=('Arial', 24), bd=10, relief='ridge', justify='right',
                      bg='#F5F5F5', fg='#333')
     self.grid(row=0, column=0, columnspan=4, padx=5, pady=5)
 master: Instância do widget pai (a janela principal).
+
 Propriedades:
 font: Define o tipo e o tamanho da fonte.
 bd: Define a espessura da borda.
@@ -32,10 +33,6 @@ relief: Define o estilo da borda.
 justify: Alinha o texto à direita.
 bg: Cor de fundo.
 fg: Cor do texto.
-Método update(text):
 
-python
-Copiar código
-def update(self, text):
-    self.delete(0, tk.END)
-    self.insert(0, text)
+Método update(text):![Captura de tela 2024-09-02 200744](https://github.com/user-attachments/assets/01822960-17af-4ef0-81d8-60fecc2303d0)
+
