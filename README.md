@@ -34,5 +34,7 @@ justify: Alinha o texto à direita.
 bg: Cor de fundo.
 fg: Cor do texto.
 
-Método update(text):![Captura de tela 2024-09-02 200744](https://github.com/user-attachments/assets/01822960-17af-4ef0-81d8-60fecc2303d0)
+Método update(text):
+
+![Captura de tela 2024-09-02 200744](https://github.com/user-attachments/assets/01822960-17af-4ef0-81d8-60fecc2303d0)
 
